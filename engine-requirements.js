@@ -1,6 +1,6 @@
 
-  const chalkModule = await import("chalk");
-  const gradientModule = await import("gradient-string");
+  let chalkModule = import("chalk");
+  let gradientModule = import("gradient-string");
 
   const chalk = chalkModule.default;
   const gradient = gradientModule.default;
