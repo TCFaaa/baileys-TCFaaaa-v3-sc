@@ -1,4 +1,4 @@
-(async () => {
+
   const chalkModule = await import("chalk");
   const gradientModule = await import("gradient-string");
 
@@ -88,5 +88,4 @@
       clearInterval(glitchInterval);
       process.exit(1);
     }, 9000);
-  }
-})();
+  })();
